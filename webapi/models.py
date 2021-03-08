@@ -8,7 +8,7 @@ class employees(models.Model):
     lastName = models.CharField(max_length=21)
 
     def __str__(self):
-        return self.lastName
+        return self.firstName
 
 
 class product(models.Model):
